@@ -1,0 +1,26 @@
+
+/***
+ * @author - Yash Khanduja, 000826385
+ * @date - 02/10/2022
+ * "StAuth10185: Yash Khanduja, 000826385 certify that this material is my original work. No other person's work has been used without due acknowledgement. 
+ *  I have not made my work available to anyone else." 
+ */ 
+
+
+
+YAHTZEE STRATEGY - Based on Probability Theory.
+The Probability of Finding a Large Straight or Small Straight is Higher.
+Which is about 28% Chance to find a Small Straight after we have found a Three of a Kind or Two of a Kind.
+and 9% Chance to find a Large Straight after we have found a Three of a Kind or a Two of a Kind.
+
+First Roll is Decided by the Rarest Kind to achieve.
+
+1. Find out which number is most frequent in the first roll using the HighestMultiplicity Function from Assignment 1.
+2. Finding Pairs - 
+3. If Pair is Found, Continue to comparing other dices to find more one of a kind dices.
+4. If no Two Dices have the Same value - Algorithm looks for Large Straights or Small Straights.
+5. Other wise Reroll and Find a better Score.
+
+Current Score - 169.79
+
+Youtube link - https://youtu.be/WP5wsx1-35s

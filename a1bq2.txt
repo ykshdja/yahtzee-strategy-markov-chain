@@ -1,0 +1,61 @@
+/***
+ * @author - Yash Khanduja, 000826385
+ * @date - 02/10/2022
+ * "StAuth10185: Yash Khanduja, 000826385 certify that this material is my original work. No other person's work has been used without due acknowledgement. 
+ *  I have not made my work available to anyone else." 
+ */ 
+
+QUESTION 1 - Some players argue that a MK5 triangle with critical change or critical damage are the only ones worth keeping. Explain this argument using the graph above. 
+What other shape/attribute combinations have a similar logical arguement?
+
+ANSWER 1 - Other shape/attribute combinations are also worth keeping. For Example - Arrow and Cross. Arrow and Cross have a similar logic argument.
+The Probability of getting a booster (Arrow/Cross) is same for every booster.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+QUESTION 2 - What is the probability of obtaining a MK5 arrow with speed? Show all steps.
+
+ANSWER 2 - Probability of MK5 Arrow with Speed - 
+
+Probability for Discrete Distribution - 
+P(X<=N) = P[X(0)] x P[X(1)] x P[X(2)] .... P[X(N)]
+
+X = Getting MK5 Arrow with Speed. Probability Distribution
+P(X) = P(MK5)*P(arrow)*P(speed) = 0.27 x 0.09 x 0.143 = 0.0035 = 0.35% (Probability).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION 3 - Which of the following stats is the easiest to obtain: health or protection? Use the following simplifying assumption - we will only take arrows with speed and triangles with critical damage. 
+You may ignore those shapes contributions to the probability of obtaining health or defense attributes. 
+Does this scenario change if we add a rule to only accept cross shapes with potency?
+
+
+ANSWER 3 - According to Markov Chain model the probability of each event depends only on the state attained in the previous event.
+
+(A) - Which of the following stats is the easiest to obtain: health or protection? 
+
+X(t+1) - Current Event.
+X(t) - Previous Event.
+Probability of any Event X -> [P(X(t+1))= j | P(X(t)) = i]
+
+Events are Described as - 
+
+X = Obtaining Health
+Y = Obtaining Protection
+---------------------------
+P(OBTAINING HEALTH)
+P(X) = P([X(Arrow)]) + P([X(Cross)]) + P([X(Circle)]) + P([X(Triangle)] + P([X(Diamond)] + P([X(Square)]) 
+P(X) = (100/100) x [(22/100 x 0/100) + (23/100 x 0/100) + (24/100 x 50/100) + (14/100 x 16.7/100)]
+P(X) = 0 + 0 + 0.12 + 0.0238
+P(X) = 0.143
+--------------------------------------------------------
+P(OBTAINING PROTECTION)
+P(Y) = P([Y(Arrow)]) + P([Y(Cross)]) + P([Y(Circle)]) + P([Y(Triangle)] + P([Y(Diamond)] + P([Y(Square)]) 
+P(Y) = (100/100) x [(22/100 x 0/100) + (23/100 x 0/100) + (24/100 x 50/100) + (14/100 x 16.7/100)]
+P(Y) = 0.143
+
+
+(B)  -  Does this scenario change if we add a rule to only accept cross shapes with potency?
+
+If we Include Potency the Probability of Obtaining Health or Protection will decrease, But all in all the Probability will remain same for both.
+
+
+                                                                 ---X---X---X---
