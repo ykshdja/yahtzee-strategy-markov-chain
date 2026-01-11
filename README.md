@@ -61,11 +61,3 @@ After running **1,000,000 simulated games**:
 - `Yahtzee` class (provided externally)
 - Java Standard Library (`java.util.Arrays`, `java.util.Map`)
 
----
-
-## Declaration
-
-> *StAuth10185:*  
-> I, **Yash Khanduja (000826385)**, certify that this material is my original work.  
-> No other person's work has been used without due acknowledgement.
-
