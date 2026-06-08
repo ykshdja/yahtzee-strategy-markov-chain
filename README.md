@@ -1,10 +1,7 @@
 # Yahtzee Strategy Simulator
 
 **Author:** Yash Khanduja  
-**Student ID:** 000826385  
-**Date:** 08/10/2022  
 
----
 
 ## Overview
 
