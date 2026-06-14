@@ -1,8 +1,5 @@
 /*
- *  @author - Yash Khanduja, 000826385
- *  @date - 08/10/2022
- * "StAuth10185: Yash Khanduja, 000826385 certify that this material is my original work. No other person's work has been used without due acknowledgement. 
- *  I have not made my work available to anyone else." 
+ *  @author - Yash Khanduja,
  *
  * The code achieves the following results: The operation took 68.32 seconds.
  *       Iterations: 1000000
